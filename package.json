@@ -1,0 +1,14 @@
+{
+  "name": "fullstack-assignment",
+  "version": "1.0.0",
+  "description": "fullstack-assignment",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd frontend && npm install && cd ..  && cd backend && npm install",
+    "start-frontend": "npm run dev --prefix frontend",
+    "start-backend": "cd backend && nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -3,25 +3,31 @@
 ## Instructions
 
 1. **Clone the Repository:**
+
    ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
+   git clone https://github.com/HarshS509/FutureSkills_Assignment
+   cd FutureSkills_Assignment
    ```
 
-2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+2. **Install dependencies:**
 
-3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
+   - Install both dependencies at once by running following command
+   - ```bash
+     npm  install
+     ```
 
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
+3. **Start backend:**
 
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
+   - ```bash
+     npm run start-backend
+     ```
 
----
+   - It will start backend on localhost:8080.
 
+4. **Start frontend:**
+
+   - ```bash
+     npm run start-frontend
+     ```
+
+   - It will start frontend on localhost:5173.
